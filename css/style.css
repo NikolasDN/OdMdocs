@@ -2,3 +2,18 @@
 * { margin: 10 10 10 10; padding: 10 10 10 10; }
 body { font: 14px/1.4 Georgia, serif; }
 #page-wrap { width: 800px; margin: 0 auto; }
+
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+}
+
+.subcontainer {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+}
+
+.item {
+    flex-grow: 1;
+}
