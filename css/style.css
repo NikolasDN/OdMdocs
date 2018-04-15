@@ -1,6 +1,6 @@
 
 * { margin: 10 10 10 10; padding: 10 10 10 10; }
-body { font: 14px/1.4 Georgia, serif; }
+body { font: 14px/1.4 Georgia, serif; margin: 10px 10px 10px 10px; padding: 10 10 10 10;}
 #page-wrap { width: 800px; margin: 0 auto; }
 
 
@@ -32,3 +32,9 @@ table.table-bordered > thead > tr > th{
 table.table-bordered > tbody > tr > td{
     border:1px solid black;
 }
+/* 
+.skilltable { border-collapse: collapse; }
+.skilltable tr { border: none; }
+.skilltable td {
+  border-right: solid 1px black; 
+} */
